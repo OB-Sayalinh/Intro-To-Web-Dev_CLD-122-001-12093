@@ -1,0 +1,163 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:deepskyblue;
+}
+
+p
+{
+    font-weight: 450;
+}
+
+header
+{
+    display: flexbox;
+    width:100%;
+    display: flex;
+}
+
+img
+{
+    max-width: 20%;
+    border-width: 1px;
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    max-height: 35vh;
+}
+
+video
+{
+    max-width: 20%;
+    max-height: 35vh;
+}
+
+.main-nav
+{
+    position: absolute;
+    display: flex;
+    float:right;
+    background-color: aqua;
+}
+
+.main-nav a
+{
+    border: 1px, solid, black;
+    padding-left: 3px;
+    padding-right: 3px
+}
+
+.selection
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 30vh;
+}
+
+.main
+{
+
+}
+
+.info
+{
+    display:inline-block;
+    justify-content: left;
+}
+
+.info:nth-child(odd)
+{
+    p
+    {
+        float: right;
+        text-align: right;
+    }
+
+    
+
+}
+
+/* .info:nth-child(odd)
+{
+
+    float:left;
+
+    p:nth-child(odd)
+    {
+        text-align: right;
+        float: right;
+    }
+    img:nth-child(even)
+    {
+        float: right
+    }
+    video:nth-child(even)
+    {
+        float: right
+    }
+    h2
+    {
+        text-align: right;
+    }
+}
+
+.info:nth-child(even)
+{
+    float:left;
+
+    .info-block
+    {
+
+        float: left;
+        text-align: left;
+
+        p:nth-child(even)
+        {
+            text-align: right;
+            float: right;
+        }
+        img:nth-child(odd)
+        {
+            float: left
+        }
+        video:nth-child(odd)
+        {
+            float: left
+        }
+        h2
+        {
+            text-align: left;
+        }
+    }
+
+} */
+
+.selection a
+{
+    width: 90%;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-size: 50vh;
+    text-align: center;
+    color:indianred;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+.selection a:hover
+{
+    width: 95%;
+    border-color: aqua;
+}
+
+.info-block
+{
+
+}
+
+
+
+

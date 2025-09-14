@@ -1,0 +1,33 @@
+.nav
+{
+    display: flexbox;
+    width: 20%;
+    float: right;
+    border-width: 2px;
+    border-color: black;
+    border-style: groove;
+    background-color: aqua;
+    padding:0;
+}
+
+.navItem
+{
+    margin-left:5px;
+    width:20%;
+}
+
+.active
+{
+    background-color: antiquewhite;
+}
+
+.navItem:hover
+{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.a:hover
+{
+    cursor: pointer;
+}
